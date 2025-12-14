@@ -21,7 +21,7 @@ Together, they aim to make chip design more **accessible, correct, and efficient
 
 The idea of using large language models (LLMs) for hardware design assistance stems from recent research highlighting how LLMs can support *design space exploration* and *code assistance* in hardware flows. One foundational concept around using conversational LLMs in hardware design workflows was discussed by Blocklove et al., where prompt-based interaction aids iterative RTL design and architecture exploration, demonstrating proof-of-concept for an AI-guided design loop. :contentReference[oaicite:0]{index=0}
 
-> ** Reference**: Blocklove et al., *LLM-Assisted Design Space Exploration (“Chip Chat”)* — illustrates how conversational AI can aid RTL and architectural tasks. :contentReference[oaicite:1]{index=1}
+> **Reference**: Blocklove et al., *LLM-Assisted Design Space Exploration (“Chip Chat”)* — illustrates how conversational AI can aid RTL and architectural tasks. :contentReference[oaicite:1]{index=1}
 
 ### Example use cases
 
