@@ -1,6 +1,6 @@
-# Chip-Chat Ecosystem
+# GenAI based HW Design
 
-**Chip-Chat Ecosystem** is a collection of AI-powered tools designed to support *hardware designers, computer architects, and verification engineers* across the full chip development lifecycle — from ideation and learning, to RTL generation, verification, and reasoning.
+**Ecosystem** is a collection of AI-powered tools designed to support *hardware designers, computer architects, and verification engineers* across the full chip development lifecycle — from ideation and learning, to RTL generation, verification, and reasoning.
 
 This repository introduces four core components:
 
