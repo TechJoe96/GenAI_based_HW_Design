@@ -1,0 +1,18 @@
+Here are the CNF equations for the 2-bit ripple carry adder:
+
+1. S0 = A0 ⊕ B0 ⊕ Cin
+   S0 = (!A0 ∨ !B0 ∨ !Cin) ∧ (A0 ∨ B0 ∨ Cin)
+
+2. C0 = majority(A0, B0, Cin)
+   C0 = (A0 ∨ B0) ∧ (A0 ∨ Cin) ∧ (B0 ∨ Cin)
+
+3. C0 (intermediate carry)
+   C0 = (A0 ∨ B0) ∧ (A0 ∨ Cin) ∧ (B0 ∨ Cin)
+
+4. S1 = A1 ⊕ B1 ⊕ C0
+   S1 = (!A1 ∨ !B1 ∨ !C0) ∧ (A1 ∨ B1 ∨ C0)
+
+5. Cout = majority(A1, B1, C0)
+   Cout = (A1 ∨ B1) ∧ (A1 ∨ C0) ∧ (B1 ∨ C0)
+
+Note that the C0 equation is the same in steps 2 and 3, as it represents the same intermediate carry.
